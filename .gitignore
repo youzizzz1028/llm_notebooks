@@ -161,4 +161,14 @@ cython_debug/
 
 REBEL.ipynb
 
+
+
+
+# 需要使用 GPT-4
+**/neo4j_llama_multimodal.ipynb
+**/Llamaindex_KnowledgeGraph.ipynb
+**/Neo4jVectorDemo.ipynb
+**/Neo.ipynb
+**/storage
+
 .vscode
