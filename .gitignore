@@ -172,3 +172,7 @@ REBEL.ipynb
 **/storage
 
 .vscode
+**/graph_data
+**/nebulagraph.html
+**/NebulaGraph.ipynb
+**/data
