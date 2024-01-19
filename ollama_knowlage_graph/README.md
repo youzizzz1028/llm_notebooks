@@ -1,6 +1,6 @@
 # 将任何文本语料库转化为 *知识图谱*
 
-![Knowledge Graph Banner](./ollama_knowlage_graph//assets/iShot_2023-12-13_18.56.17.png)
+![Knowledge Graph Banner](./assets/iShot_2023-12-13_18.56.17.png)
 *使用此代码生成的知识图谱* 
 
 
@@ -39,11 +39,11 @@
 
 要生成图，您需要调整此笔记本。
 
-**[extract_graph.ipynb](./ollama_knowlage_graph//extract_graph.ipynb)**
+**[extract_graph.ipynb](./extract_graph.ipynb)**
 
 该笔记本实现了以下流程图中概述的方法。
 
-<img src="./ollama_knowlage_graph/assets/iShot_2023-12-13_18.53.05.png"/>
+<img src="./assets/iShot_2023-12-13_18.53.05.png"/>
 
 1. 将文本语料库拆分成块。为这些块中的每一个分配一个块ID。
 2. 对于每个文本块，使用LLM提取概念及其语义关系。让我们为这种关系分配一个权重W1。同一对概念之间可以有多个关系。每个这样的关系都是一对概念之间的边。
