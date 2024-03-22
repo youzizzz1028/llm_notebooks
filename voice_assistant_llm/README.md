@@ -4,15 +4,15 @@
 
 ## 特征
 
-- Record audio input from users in chunks.
-- Transcribe the recorded audio using a pre-trained AI model.
-- Interact with the AI model to generate responses based on user input.
-- Utilizes a knowledge base for context-aware responses.
+- 分块记录用户的音频输入。
+- 使用预先训练的 AI 模型转录录制的音频。
+- 与 AI 模型交互，根据用户输入生成响应。
+- 利用知识库进行上下文感知响应。
 
 ## 先决条件
 
 
-Before running the code, ensure you have the following dependencies installed:
+在运行代码之前，请确保您已安装以下依赖项：
 
 - Python above 3.8
 - `pyaudio`
